@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>my portfolio</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header Styling */
+    header {
+        background-color: #333;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    /* Introduction Section */
+    .introduction {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    /* Skills Display */
+    .skills {
+        background-color: #eaeaea;
+        padding: 20px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .skills ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .skills li {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Contact Information */
+    .contact {
+        background-color: #333;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 600px) {
+        /* Adjustments for smaller screens */
+        header, .introduction, .skills, .contact {
+            padding: 10px;
+        }
+        .skills li {
+            margin: 5px 0;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>John Doe</h1>
+</header>
+
+<section class="introduction">
+    <p>Hello! I'm John Doe, a web developer passionate about creating engaging and interactive websites.</p>
+</section>
+
+<section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+    </ul>
+</section>
+
+<footer class="contact">
+    <p>Contact me: john.doe@example.com</p>
+    <p>Follow me on <a href="#">Twitter</a> and <a href="#">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
